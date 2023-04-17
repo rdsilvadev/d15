@@ -16,7 +16,7 @@ Grandes telas: acima de 1200px
 
 @media screen and (max-width: 320px) {
     body {
-        background-color: #5f2c82;
+        background-image: #5f2c82;
     }
 
     section#login {
