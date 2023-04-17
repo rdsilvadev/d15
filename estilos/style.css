@@ -103,15 +103,15 @@ div.campo > input {
     font-size: 1em;
     height: 100%;
     width: calc(100% - 44px);
-    transform: translateY(-13px);
     border: 0px;
     border-radius: 8px;
     padding: 4px;
+    transform: translateY(-13px);
 }
 
 div.campo > input:focus-within {
     background-color: white;
-    border: none;
+    outline: none;
 }
 
 form > input[type=submit] {
