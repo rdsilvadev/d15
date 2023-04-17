@@ -6,6 +6,35 @@
   lilás: #5f2c82
 */ 
 
+/* Typical Devide Breakpoints
+Pequenas telas: até 600px
+Celular: de 600px até 768px
+Tablet: 768px até 992px
+Desktop: 992px até 1200px
+Grandes telas: acima de 1200px
+*/
+
+@media screen and (min-width: 320px) and (max-width: 600px) {
+
+
+    section#login {
+        height: 310px;
+        width: 150px;
+    }
+
+    section#login > div#imagem {
+        float: top;
+        width: 100%;
+        height: 60%;
+        border-top-right-radius: 0px;
+    }
+
+    section#login > div#formulario {
+        float: bottom;
+        width: 70%;
+    }
+}
+
 @media screen and (min-width: 768px) and (max-width: 992px) {
     body {
         background-image: linear-gradient(to bottom, #5f2c82, #49a09d);
